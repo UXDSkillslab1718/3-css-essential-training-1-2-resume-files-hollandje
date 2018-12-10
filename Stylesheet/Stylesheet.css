@@ -36,19 +36,24 @@ body {
 
 h1 {
 	font-weight: bold;
-	font-size: 72px;
+	font-size: 48px;
 	font-family: 'Gloria Hallelujah', cursive;
+	color: #fff;
+	margin: 0px;
+	display: inline;
 }
 
 h2 {
 	font-size: 26px;
 	font-weight: bold;
 	font-family: 'Gloria Hallelujah', cursive;
+	margin: 0px;
 }
 
 p {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
 }
 
 li {
@@ -56,7 +61,21 @@ li {
 }
 
 .center {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.center2 {
+	display: inline;
+	margin: auto;
+
+}
+
+div {
+	margin: 0 auto;
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
 }
