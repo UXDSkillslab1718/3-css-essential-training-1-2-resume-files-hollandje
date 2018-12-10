@@ -9,10 +9,6 @@ body {
 	display: block;
 }
 
-#intro {
-	background-color: #6891C7; 
-}
-
 #education {
 	background-color: #4472CA;
 }
@@ -40,7 +36,7 @@ h1 {
 	font-family: 'Gloria Hallelujah', cursive;
 	color: #fff;
 	margin: 0px;
-	display: inline;
+	display: block;
 }
 
 h2 {
@@ -60,22 +56,20 @@ li {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.center2 {
-	display: inline;
-	margin: auto;
-
-}
-
-div {
-	margin: 0 auto;
-}
-
 .container {
-	width: 950px;
+	width: 1100px;
 	margin: 0 auto;
+	padding: 50px;
+	min-height: 280px;
+}
+
+.leftColumn {
+	width: 280px;
+  	float: left;
+  	padding-right: 20px;
+}
+
+.rightColumn {
+	width: 650px;
+  	float: left;
 }
