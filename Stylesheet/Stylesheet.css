@@ -1,0 +1,62 @@
+body {
+	display: block;
+}
+#header {
+	background-color: #0A369D;
+}
+
+#main {
+	display: block;
+}
+
+#intro {
+	background-color: #6891C7; 
+}
+
+#education {
+	background-color: #4472CA;
+}
+
+#work {
+	background-color: #FFF;
+}
+
+#contact {
+	background-color: #92B4F4;
+}
+
+#footer {
+	background-color: #787878;
+
+}
+
+body {
+	margin: 0px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 72px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
