@@ -1,3 +1,9 @@
+.contentwrap {
+	max-width: 1920px;
+	width: 100%;
+	min width: 950px;
+}
+
 body {
 	display: block;
 }
@@ -12,7 +18,6 @@ body {
 	width: 100%;
 	height: 40px;
 	text-align: center;
-	color: 
 }
 
 #navigator a {
